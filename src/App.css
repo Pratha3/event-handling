@@ -1,0 +1,22 @@
+.default-effect {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.click-effect {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.click-effect:hover {
+    background-color: #f0f0f0;
+}
+
+.hover-effect {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.hover-effect:hover {
+    color: yellow;
+}
