@@ -1,8 +1,12 @@
+/* App.css */
+
+/* Styling for the first heading (default, no interaction) */
 .default-effect {
     text-align: center;
     font-family: Arial, sans-serif;
 }
 
+/* Styling for the second heading (click toggle) */
 .click-effect {
     cursor: pointer;
     transition: all 0.3s ease;
@@ -12,11 +16,42 @@
     background-color: #f0f0f0;
 }
 
+/* Styling for the third heading (hover effect) */
 .hover-effect {
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 .hover-effect:hover {
-    color: yellow;
+    color: purple;
+}
+
+/* Styling for the "Show Code" button */
+.toggle-code-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-code-btn:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the code block (the hidden/shown part) */
+.code-block {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    text-align: left;
 }
